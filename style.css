@@ -1,0 +1,76 @@
+*{ box-sizing: border-box}
+
+[class^="box"] {
+    padding: 113px;
+    color: black;
+    background-color: black;
+    border: solid 4px white;
+        
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    width: 100%;
+    text-align: center;
+    
+}
+.box2 {
+    width: 50%;
+    text-align: center;
+}
+.box3 {
+    width: 50%;
+    text-align: center;
+}
+.box4 {
+    width: 25%;
+    text-align: center;
+}
+.box5 {
+    width: 25%;
+    text-align: center;
+}
+.box6 {
+    width: 25%;
+    text-align: center;
+}
+.box7 {
+    width: 25%;
+    text-align: center;
+}
+.box8 {
+    width: 33.3%;
+    text-align: center;
+    
+}
+.box9 {
+    width: 33.3%;
+    text-align: center;
+}
+.box10 {
+    width: 33.3%;
+    text-align: center;
+}
+@media only screen and (max-width: 480px) {
+    [class^="box"] {
+        padding: 50px;
+        height: 15vh;
+    }
+    .box1 {
+        width: 100%;
+        background-color: orange;
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .box1 {
+        background-color: aqua;
+    }
+}
