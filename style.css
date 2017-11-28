@@ -69,8 +69,6 @@
     }
 
 }
-@media only screen (max-width: 1020px) {
-    .box1 {
-        background-color: aqua;
-    }
+@media only screen and (max-width: 1024px) {
+    
 }
