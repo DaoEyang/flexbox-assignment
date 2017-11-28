@@ -58,8 +58,8 @@
     width: 33.3%;
     text-align: center;
 }
-@media only screen and ((max-width: 480px) {
-    [class^="box"] {
+@media only screen and (max-width: 480px) {
+    [class^="box"] 
         padding: 50px;
         height: 15vh;
     }
